@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/react-counter-project/";
+    config.base = "https://rigo2000.github.io/react-counter-project/";
   }
 
   return config;
